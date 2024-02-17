@@ -1,0 +1,1089 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.19.0" title="Shotcut version 23.07.29" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:06:12.760">
+    <property name="length">00:06:12.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:06:12.760"/>
+  </playlist>
+  <chain id="chain0" out="00:00:13.160">
+    <property name="length">00:00:13.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">foguete.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">a977ca7249bc898a81dbe17d53efd9bf</property>
+    <property name="shotcut:caption">foguete.wav</property>
+  </chain>
+  <chain id="chain1" out="00:00:21.880">
+    <property name="length">00:00:21.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">keller.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">f659f17b699beac5e4cfcbe6c4d22978</property>
+    <property name="shotcut:caption">keller.wav</property>
+  </chain>
+  <chain id="chain2" out="00:00:19.680">
+    <property name="length">00:00:19.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">davinci/davinci.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">3df8d8d269d2fb9595a5479e48a4a504</property>
+    <property name="shotcut:caption">davinci.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain3" out="00:00:17.400">
+    <property name="length">00:00:17.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">currie/marie-currie.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">e15fdccaf6b856549c51a6ee6d047cfe</property>
+    <property name="shotcut:caption">marie-currie.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain4" out="00:00:11.720">
+    <property name="length">00:00:11.760</property>
+    <property name="eof">pause</property>
+    <property name="resource">einstein.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">c349406b84816a7e7895314a9a0c4f06</property>
+    <property name="shotcut:caption">einstein.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain5" out="00:00:14.800">
+    <property name="length">00:00:14.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">chaplin.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">79bf0db3b66587272e172ea969c98a8c</property>
+    <property name="shotcut:caption">chaplin.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain6" out="00:00:16.240">
+    <property name="length">00:00:16.280</property>
+    <property name="eof">pause</property>
+    <property name="resource">gates.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">129b6eae8480dc2a6d4f834e9f195a0d</property>
+    <property name="shotcut:caption">gates.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain7" out="00:00:15.160">
+    <property name="length">00:00:15.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">zuckerberg.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">0defc6e8c8cb61610b0324623f68bdfe</property>
+    <property name="shotcut:caption">zuckerberg.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain8" out="00:00:11.760">
+    <property name="length">00:00:11.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">leo.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">7b821c98b5d510af54e8b0b93dcfde98</property>
+    <property name="shotcut:caption">leo.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain9" out="00:00:11.160">
+    <property name="length">00:00:11.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">fatos.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">fbb3cb7c6ae09862dcd80f8cd0a44bf1</property>
+    <property name="shotcut:caption">fatos.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain10" out="00:00:24.000">
+    <property name="length">00:00:24.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">hemisferios.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">b40c2f0f963f6417151ce08cabc00335</property>
+    <property name="shotcut:caption">hemisferios.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain11" out="00:00:22.960">
+    <property name="length">00:00:23.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">adaptação/adaptação.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">df40474d5b860129d5a79a4895d97c4f</property>
+    <property name="shotcut:caption">adaptação.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain12" out="00:01:42.840">
+    <property name="length">00:01:42.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">HISTORICO.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">21c37f34e749fca4f667702949d8f8cb</property>
+    <property name="shotcut:caption">HISTORICO.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain13" out="00:01:37.160">
+    <property name="length">00:01:37.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">impa.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">1714ec81bcecebbbeee459d359286288</property>
+    <property name="shotcut:caption">impa.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain14" out="00:00:56.840">
+    <property name="length">00:00:56.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">final.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="shotcut:hash">abdf2f827088a9bdd415b92459a989e7</property>
+    <property name="shotcut:caption">final.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:13.160"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:21.880"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:00:19.680"/>
+    <entry producer="chain3" in="00:00:00.000" out="00:00:17.400"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:00:11.720"/>
+    <entry producer="chain5" in="00:00:00.000" out="00:00:14.800"/>
+    <entry producer="chain6" in="00:00:00.000" out="00:00:16.240"/>
+    <entry producer="chain7" in="00:00:00.000" out="00:00:15.160"/>
+    <entry producer="chain8" in="00:00:00.000" out="00:00:11.760"/>
+    <entry producer="chain9" in="00:00:00.000" out="00:00:11.160"/>
+    <entry producer="chain10" in="00:00:00.000" out="00:00:24.000"/>
+    <entry producer="chain11" in="00:00:00.000" out="00:00:22.960"/>
+    <entry producer="chain12" in="00:00:00.000" out="00:00:26.360"/>
+    <entry producer="chain13" in="00:00:00.000" out="00:01:37.160"/>
+    <entry producer="chain14" in="00:00:00.000" out="00:00:48.760"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">orcl-foguete_site.webp</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">924e7ec3f9310300f5923f806c71c5d0</property>
+    <property name="shotcut:caption">orcl-foguete_site.webp</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">neilarmstrong-cke.webp</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">9e5b99806a0b04760fa1aa8751d56f0e</property>
+    <property name="shotcut:caption">neilarmstrong-cke.webp</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">25431184.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">347b5e1923c985a6a3f697e622a7ffd9</property>
+    <property name="shotcut:caption">25431184.jpg</property>
+  </producer>
+  <tractor id="tractor0" in="00:00:00.000" out="00:00:00.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer1" in="00:00:02.640" out="00:00:02.640"/>
+    <track producer="producer2" in="00:00:00.040" out="00:00:00.040"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">helen_keller_reading_a_book_web.webp</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">16bc02a1aa41e2fb36d6e75e100ea14b</property>
+    <property name="shotcut:caption">helen_keller_reading_a_book_web.webp</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Helen_Keller_graduation.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">499e9ddf20f57de605dd587ace208f60</property>
+    <property name="shotcut:caption">Helen_Keller_graduation.jpg</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">davinci/assets/Leonardo-Da-Vinci-page-art.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">bae5ec5b3a7e795a0a7dc38efb8f9bb2</property>
+    <property name="shotcut:caption">Leonardo-Da-Vinci-page-art.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">davinci/assets/leonardo-da-vinci.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">fcf469923b0a00fea8c92b7a64768d11</property>
+    <property name="shotcut:caption">leonardo-da-vinci.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">davinci/assets/5dc9fe5267fa8-1026x1200.jpeg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">6567dc44177703d88ad632df6e4d882d</property>
+    <property name="shotcut:caption">5dc9fe5267fa8-1026x1200.jpeg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">davinci/assets/vitruviano.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">5e168d2e9f685fa2b4456f4310747a61</property>
+    <property name="shotcut:caption">vitruviano.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">currie/assets/madame-curie.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">6f1486b5854950a1120db76701b9cbf1</property>
+    <property name="shotcut:caption">madame-curie.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">currie/assets/meme ok-min.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">02d430704d19e7da582777f8f912335b</property>
+    <property name="shotcut:caption">meme ok-min.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">currie/assets/14041376_mcurie-final.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">e5bd20b4b3721d85b318c65d8995c097</property>
+    <property name="shotcut:caption">14041376_mcurie-final.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">472vm.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">ebe4edcdbec095a0d269d252fe48a435</property>
+    <property name="shotcut:caption">472vm.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">camisa-albert-einstein-006-camiseta-albert-einstein-musculoso.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">3c4324669079f6c035768e021f6589ec</property>
+    <property name="shotcut:caption">camisa-albert-einstein-006-camiseta-albert-einstein-musculoso.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer14" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">chaplin/charleschaplin-reproducao.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">f666bd831268ef8451e629adbb52049d</property>
+    <property name="shotcut:caption">charleschaplin-reproducao.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">chaplin/tempos-modernos.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">4c9a51d46ba510c73b491e5cdbaf60f8</property>
+    <property name="shotcut:caption">tempos-modernos.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">gates/rtxfua6.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">e18969ab66dcfb1108e1ef5c95507843</property>
+    <property name="shotcut:caption">rtxfua6.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer17" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">gates/bill-gates-previsao-ia_x7mm.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">24fe4170670165d7984d0b266dd5e825</property>
+    <property name="shotcut:caption">bill-gates-previsao-ia_x7mm.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer18" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">zuckerberg/Mark-Zuckerberg.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">eb392e4da48829eb56d60749e8bf8633</property>
+    <property name="shotcut:caption">Mark-Zuckerberg.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">zuckerberg/2011-01-03-facebook-advertising.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">a81b2eca3e353dc87f314d29a4c0a8b4</property>
+    <property name="shotcut:caption">2011-01-03-facebook-advertising.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer20" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/pache/OneDrive/Imagens/Imagens da Câmera/WIN_20240104_16_22_28_Pro.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">e345ea6a4ef2584e034f59b5e19ccb25</property>
+    <property name="shotcut:caption">WIN_20240104_16_22_28_Pro.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer21" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">pacheco/IMG-20221227-WA0014.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">400621ce0ac51644cf5f2e092c3f4709</property>
+    <property name="shotcut:caption">IMG-20221227-WA0014.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer22" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">pacheco/EU.jpeg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">84ec023c2f2d4e765e987be5f3cf5b32</property>
+    <property name="shotcut:caption">EU.jpeg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer23" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/◘ DADOS ◘/IMAGES/punheca.jpeg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">fea3ca6090e2ff20e7852da98fe559e7</property>
+    <property name="shotcut:caption">punheca.jpeg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer24" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">hemisferios-do-cerebro-o-que-a-ciencia-tem-a-dizer-sobre-isso.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="text">INVALID</property>
+    <property name="fgcolour">0xffffffff</property>
+    <property name="bgcolour">0x00000000</property>
+    <property name="olcolour">0x00000000</property>
+    <property name="outline">0</property>
+    <property name="align">left</property>
+    <property name="pad">0</property>
+    <property name="family">Sans</property>
+    <property name="size">48</property>
+    <property name="style">normal</property>
+    <property name="weight">400</property>
+    <property name="encoding">UTF-8</property>
+    <property name="shotcut:hash">0fa9579ca444fb2762f8fb28cb495c7c</property>
+    <property name="shotcut:caption">hemisferios-do-cerebro-o-que-a-ciencia-tem-a-dizer-sobre-isso.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer25" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">hemisferios-cerebrais1.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="text">INVALID</property>
+    <property name="fgcolour">0xffffffff</property>
+    <property name="bgcolour">0x00000000</property>
+    <property name="olcolour">0x00000000</property>
+    <property name="outline">0</property>
+    <property name="align">left</property>
+    <property name="pad">0</property>
+    <property name="family">Sans</property>
+    <property name="size">48</property>
+    <property name="style">normal</property>
+    <property name="weight">400</property>
+    <property name="encoding">UTF-8</property>
+    <property name="shotcut:hash">8fb3d3fdcdbc89dfaa861e094a50da97</property>
+    <property name="shotcut:caption">hemisferios-cerebrais1.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer26" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">92955098_2816366758449356_8989147825023483904_n.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="text">INVALID</property>
+    <property name="fgcolour">0xffffffff</property>
+    <property name="bgcolour">0x00000000</property>
+    <property name="olcolour">0x00000000</property>
+    <property name="outline">0</property>
+    <property name="align">left</property>
+    <property name="pad">0</property>
+    <property name="family">Sans</property>
+    <property name="size">48</property>
+    <property name="style">normal</property>
+    <property name="weight">400</property>
+    <property name="encoding">UTF-8</property>
+    <property name="shotcut:hash">c0364da44dad0864ed0b1103891a43ab</property>
+    <property name="shotcut:caption">92955098_2816366758449356_8989147825023483904_n.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer27" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">adaptação/Pessoa-ambidestra-escrevendo-na-sala-de-aula.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">1c71f08db1b6532ec719d1767b7e67d7</property>
+    <property name="shotcut:caption">Pessoa-ambidestra-escrevendo-na-sala-de-aula.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer28" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">adaptação/c65d84509fa312f0664e10938a.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">c49267969564e1c76b28da89afb89963</property>
+    <property name="shotcut:caption">c65d84509fa312f0664e10938a.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer29" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">adaptação/damImage.narrow.768w.j_1621417777391.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">4ef6f623f2b399acb94f762e848d58c9</property>
+    <property name="shotcut:caption">damImage.narrow.768w.j_1621417777391.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer30" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">adaptação/carro maoinglesa.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">8333a467973571ca25d020026bca1a1b</property>
+    <property name="shotcut:caption">carro maoinglesa.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer31" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">problema.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">72514c41d411dbd8d00455f7302877d5</property>
+    <property name="shotcut:caption">problema.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer32" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Canhoto.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">80e735b118d3b564c02e216e4940169e</property>
+    <property name="shotcut:caption">Canhoto.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer33" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">preconceito2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">335212aa3514f104d406b57df4fae4f1</property>
+    <property name="shotcut:caption">preconceito2.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer34" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">formacao_se-o-mal-estiver-vencendo-busque-o-bem.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">77781f3120dc549dbf40905a57cb4aa2</property>
+    <property name="shotcut:caption">formacao_se-o-mal-estiver-vencendo-busque-o-bem.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer35" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">preconceituar.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">326215ddb2412204d2479ef7b66834c7</property>
+    <property name="shotcut:caption">preconceituar.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer36" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">fogo.webp</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">d924e07361635341080aa0cdd5238e27</property>
+    <property name="shotcut:caption">fogo.webp</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer37" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">1_bruxa-26934801.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">537fbdce11c32cda2828b86a77ad9ca9</property>
+    <property name="shotcut:caption">1_bruxa-26934801.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor1" in="00:00:00.000" out="00:00:00.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer36" in="00:00:04.920" out="00:00:04.920"/>
+    <track producer="producer37" in="00:00:00.000" out="00:00:00.000"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer38" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">cromossomoshomologos.webp</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">6b17c6c72cb78b79070ef720ecc7fd70</property>
+    <property name="shotcut:caption">cromossomoshomologos.webp</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer39" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">25348868-eu-amor-matematica-linha-coracao-em-forma-bandeira-matematica-conceito-ilustracao-vetor.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">1141c1fbf7d12da13875b391e0bc4dd7</property>
+    <property name="shotcut:caption">25348868-eu-amor-matematica-linha-coracao-em-forma-bandeira-matematica-conceito-ilustracao-vetor.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer40" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Homer-Simpson_boson-higgs.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">82461bde144cdc83c02a614aed69533f</property>
+    <property name="shotcut:caption">Homer-Simpson_boson-higgs.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer41" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">hemisferios/cr4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">53fd1c75a41c21253fd962bb9148281f</property>
+    <property name="shotcut:caption">cr4.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer42" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">bg1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">26de13ac51bef147f7c14ce9c075b23a</property>
+    <property name="shotcut:caption">bg1.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer43" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/◘ DADOS ◘/IMAGES/aprender.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">8bbfa037aa10fbe4c4fc755120c21344</property>
+    <property name="shotcut:caption">aprender.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer44" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">reis.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">0dd28573c8ae8bc44818126a4ef75b68</property>
+    <property name="shotcut:caption">reis.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer45" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">13-de-agosto-dia-do-canhoto.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">32e6e9abe2d0ba4ed2f560667ed27c26</property>
+    <property name="shotcut:caption">13-de-agosto-dia-do-canhoto.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer46" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/◘ DADOS ◘/IMAGES/punheca.jpeg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">fea3ca6090e2ff20e7852da98fe559e7</property>
+    <property name="shotcut:caption">punheca.jpeg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer47" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">d92be55127bc1416a41332a900.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">4bf81878595b4440627527602eada6d4</property>
+    <property name="shotcut:caption">d92be55127bc1416a41332a900.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer48" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">crativo-cerebro.webp</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">d0d94eb2f24f28468874eb425cd8c9ee</property>
+    <property name="shotcut:caption">crativo-cerebro.webp</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer49" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Homer-Simpson_boson-higgs.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">82461bde144cdc83c02a614aed69533f</property>
+    <property name="shotcut:caption">Homer-Simpson_boson-higgs.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer50" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">img_not_03.jpeg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">1f68261f1f7eccd0c5aa337cb0688965</property>
+    <property name="shotcut:caption">img_not_03.jpeg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer51" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page_1.webp</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">92b376880765961535bea41de8b31b88</property>
+    <property name="shotcut:caption">page_1.webp</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer52" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">124-1245658_inscreva-se-youtube-focolhe-youtube-l.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">6709c9df1278f7a371b3662db98ca4a9</property>
+    <property name="shotcut:caption">124-1245658_inscreva-se-youtube-focolhe-youtube-l.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer53" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Cachorro-36.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">11a92069212f9eaa3bddeb72d75c02a6</property>
+    <property name="shotcut:caption">Cachorro-36.png</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:06.560"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:02.600"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="producer2" in="00:00:00.080" out="00:00:03.960"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:10.920"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:10.920"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer7" in="00:00:00.040" out="00:00:06.120"/>
+    <entry producer="producer8" in="00:00:02.120" out="00:00:07.680"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:05.560"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:06.120"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:05.640"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:05.720"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:05.960"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:07.320"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:07.440"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:07.520"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:00:08.680"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:00:07.320"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:07.800"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:03.120"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:00:07.280"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:00:01.280"/>
+    <entry producer="producer23" in="00:00:02.680" out="00:00:13.840"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer25" in="00:00:00.000" out="00:00:08.640"/>
+    <entry producer="producer26" in="00:00:00.200" out="00:00:10.520"/>
+    <entry producer="producer27" in="00:00:00.000" out="00:00:08.640"/>
+    <entry producer="producer28" in="00:00:00.000" out="00:00:07.800"/>
+    <entry producer="producer29" in="00:00:00.000" out="00:00:03.480"/>
+    <entry producer="producer30" in="00:00:00.000" out="00:00:02.920"/>
+    <entry producer="producer31" in="00:00:00.000" out="00:00:04.520"/>
+    <entry producer="producer32" in="00:00:00.000" out="00:00:09.040"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:00:05.640"/>
+    <entry producer="producer34" in="00:00:00.000" out="00:00:07.040"/>
+    <blank length="00:00:00.440"/>
+    <entry producer="producer35" in="00:00:00.000" out="00:00:08.440"/>
+    <entry producer="producer36" in="00:00:00.000" out="00:00:04.880"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="producer37" in="00:00:00.040" out="00:00:03.960"/>
+    <entry producer="producer38" in="00:00:00.000" out="00:00:08.280"/>
+    <entry producer="producer39" in="00:00:00.000" out="00:00:06.760"/>
+    <entry producer="producer40" in="00:00:00.000" out="00:00:06.360"/>
+    <entry producer="producer41" in="00:00:00.000" out="00:00:15.240"/>
+    <entry producer="producer42" in="00:00:00.000" out="00:00:17.680"/>
+    <entry producer="producer43" in="00:00:00.000" out="00:00:05.520"/>
+    <entry producer="producer44" in="00:00:00.000" out="00:00:07.520"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="producer45" in="00:00:00.000" out="00:00:11.600"/>
+    <entry producer="producer46" in="00:00:02.680" out="00:00:07.080"/>
+    <entry producer="producer47" in="00:00:00.000" out="00:00:05.280"/>
+    <entry producer="producer48" in="00:00:00.000" out="00:00:10.080"/>
+    <entry producer="producer49" in="00:00:00.000" out="00:00:05.800"/>
+    <entry producer="producer50" in="00:00:00.000" out="00:00:05.040"/>
+    <entry producer="producer51" in="00:00:00.000" out="00:00:05.840"/>
+    <entry producer="producer52" in="00:00:00.000" out="00:00:09.520"/>
+    <entry producer="producer53" in="00:00:00.000" out="00:00:02.480"/>
+  </playlist>
+  <tractor id="tractor2" title="Shotcut version 23.07.29" in="00:00:00.000" out="00:06:12.760">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">1.16763</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
