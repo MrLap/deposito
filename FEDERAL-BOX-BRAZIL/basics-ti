@@ -1,0 +1,122 @@
+TI
+1 - Engenharia de software: 
+Processos de software: 
+Processo Unificado (UP): 
+conceitos gerais, 
+disciplinas, 
+fases, 
+papéis, 
+atividades,
+ artefatos; 
+
+2 - Análise e projeto orientados a objetos; 
+A Linguagem UML: modelos e diagramas;
+ Padrões de projeto; 
+ Engenharia de requisitos. 
+2 - Estrutura de dados e algoritmos: 
+Busca sequencial e busca binária sobre arrays; 
+Ordenação (métodos da bolha, ordenação por seleção, ordenação por inserção);
+Lista encadeada; Pilha; Fila; Noções de árvore binária. 
+
+3 - Linguagens de programação: linguagens de programação, linguagens orientadas a objeto
+e procedurais; 
+Padrões de Projeto; 
+Linguagens Java SE; JEE, 
+Microprofile, 
+C#, 
+.NET, 
+AngularJS; 
+Angular; 
+TypeScript 4.X; 
+Javascript; 
+Python 3.9.X; 
+(bibliotecas Pandas, NumPy, SciPy, Matplotlib, Tensorflow, PyTorch e Scikit-learn); 
+Scala; 
+R; 
+Kotlin; 
+Objective-C; 
+.Net; 
+Flutter; 
+Swift, 
+Cobol. 4 -
+Desenvolvimento de software para a Web: 
+sistemas distribuídos e microsserviços; 
+Arquitetura e padrões de projeto Java EE8; 
+Servlets; 
+JSF; 
+JSP;
+
+4 - Ajax;
+Interoperabilidade de sistemas; 
+SOA e Web Services (Quarkus); 
+Padrões REST, 
+Padrões HTML 4.01, HTTP response Status code, XHTML 1.0,
+XML, XSLT, UDDI, WSDL e SOAP. 5 - 
+Teste de software (Qualidade): Controle da qualidade estático: revisão, inspeção, medição estática,
+
+5 - análise estática; 
+Princípios e técnicas de teste de software: 
+teste de unidade, 
+teste de integração, 
+teste de regressão, 
+teste alfa, 
+teste beta, 
+teste de segurança, 
+teste de aceitação e de aprovação; 
+Desenvolvimento dirigido por testes.
+
+6 - Bancos de dados: Modelagem conceitual de dados: a abordagem entidade-relacionamento;
+Modelo relacional de dados (conceitos básicos enormalização); 
+Conceitos de banco de dados e sistemas gerenciadores de bancos de dados (SGBD); 
+Linguagem SQL; Data Warehouse –
+
+8 - modelagem física de dados: tabelas, índices, particionamento, desempenho;
+modelagem conceitual para data warehouses, 
+dados multidimensionais;
+
+9 - Big data: Fundamentos, técnicas de preparação e apresentação de dados;
+ soluções de big data. - 
+ Agilidade: Lean; 
+ Lean IT; 
+ frameworks (XP, SCRUM, Kanban, SAFe, SA, Nexus);
+  ágil em escala e ágil escalado; 
+  ferramentas; artefatos, métricas e indicadores ágeis; management 3.0; Lean
+
+UX; 
+Design Thinking; 
+História de Usuário; 
+O backlog do produto e as técnicas para priorização
+(Moscow, Scorecard, BUC, Testes de Suposição e Valor de negócio x risco); 
+técnica para estimativa de escopo (planning poker, Story points, enquete, T-shirt sizing); 
+kanban e o fluxo de valor;
+
+12 - técnicas/cerimônias para colaboração e integração do time ágil (SoS, PoSinc, planning, review, retrospectiva, daily, PI Plannig); 
+Integração contínua;
+
+13 - Deploy contínuo; Entrega contínua; tratamento de débito técnicos e incidentes; Arquitetura e Qualidade ágeis; DevSecOps. 8 - Organização e
+
+14 - arquitetura de computadores: Arquitetura básica de um computador: CPU e hierarquia de memória; Armazenamento e representação de dados: base
+
+15 - binária e complemento a dois, ponto flutuante e caracteres; Armazenamento e representação de instruções; Modos de endereçamento; Conjunto
+
+16 - típico de instruções de uma CPU; Subsistema de entrada/saída e dispositivos de armazenamento secundário. 9 - Sistemas Operacionais: Funções
+
+17 - e estrutura de um sistema operacional; Processos: conceitos básicos, comunicação, sincronização e escalonamento; Gerência de memória: partições
+
+18 - fixas e variáveis, realocação, memória virtual, swapping, sistemas de arquivos; Windows 10 (32-64 bits) e ambiente Linux (SUSE SLES 15 SP2) e
+
+19 - IBM z/OS. 10 - Arquiteturas de software: arquitetura em camadas, arquitetura MVC, arquitetura orientada a serviços; arquitetura monolítica,
+
+20 - arquitetura microsserviço, micro front end, Nuvem pública e privada, métricas e estimativas de software, Análise por pontos de função: conceitos
+
+21 - básicos e aplicações; Estratégias de Migração de Aplicações para o ambiente de nuvem, Governança, Computação Serverless, Segurança
+
+22 - Compartilhada. 11 - Gerência de configuração: Conceitos e práticas; Uso de ferramentas de gerência de configuração; Controle de defeitos:
+
+23 - conceitos e práticas. 12 - Portais corporativos: Arquitetura da informação, portlets e RSS; Ferramentas de Gestão de Conteúdos; Modelo de
+
+24 - Acessibilidade do Governo Eletrônico. 13 - Qualidade de software: CMMI/MPS-BR: Conceitos básicos e objetivos; Disciplinas e formas de
+
+25 - representação; Níveis de capacidade e maturidade. 14 - Conceitos de Arquitetura de Referência: arquitetura de solução para o desenvolvedor
+
+26 - básico. 15 - Gestão e governança de TI: ITIL v.4; COBIT
